@@ -1,5 +1,6 @@
-from scripts.resistor_colour import resistor_colour
+from scripts.resistor_colour import *
 
 
 def test_resistor_colour_0():
-    assert resistor_colour("black") == 0
+    m = ResistorColour()
+    assert m.band_value("black") == 0
